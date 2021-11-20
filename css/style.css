@@ -1,0 +1,314 @@
+@charset "UTF-8";
+.elem-1 {
+  color: white;
+  margin: 0 auto; }
+  .elem-1 .container {
+    background: url(../img/Image.png);
+    margin: 0 auto; }
+    .elem-1 .container .head-1 {
+      font-size: 48px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Josefin Sans";
+      text-align: center;
+      margin-top: 100px; }
+      @media only screen and (max-width: 320px) {
+        .elem-1 .container .head-1 {
+          font-size: 22px;
+          margin-top: 30px; } }
+    .elem-1 .container .title {
+      font-size: 22px;
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      text-align: center; }
+      @media only screen and (max-width: 320px) {
+        .elem-1 .container .title {
+          font-size: 18px; } }
+    .elem-1 .container .search {
+      width: 310px;
+      /* Ширина поля с кнопкой */
+      border: 1px solid white;
+      /* Параметры рамки */
+      min-height: 20px;
+      /* Минимальная высота */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto; }
+      @media only screen and (max-width: 320px) {
+        .elem-1 .container .search {
+          width: 290px; } }
+      .elem-1 .container .search input[type="search"] {
+        border: none;
+        /* Убираем рамку */
+        outline: none;
+        /* Убираем свечение в Chrome и Safari */
+        -webkit-appearance: none;
+        /* Убираем рамку в Chrome и Safari */
+        width: 274px;
+        /* Ширина поля */
+        vertical-align: middle;
+        /* Выравнивание по середине */ }
+      .elem-1 .container .search input[type="submit"] {
+        width: 120px;
+        /* Ширина кнопки */
+        min-height: 20px;
+        /* Высота кнопки */
+        border: none;
+        /* Убираем рамку */
+        background-color: #5474FD; }
+    .elem-1 .container .wrapper {
+      margin: 80px auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column; }
+      @media only screen and (max-width: 320px) {
+        .elem-1 .container .wrapper {
+          margin: 20px auto; } }
+      .elem-1 .container .wrapper .scroll__down {
+        color: white;
+        text-decoration: none;
+        text-align: center; }
+      .elem-1 .container .wrapper .image-mini .angle {
+        background-color: white;
+        width: 20px;
+        height: 20px; }
+    .elem-1 .container .con-foot {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+      margin: 10px auto 0 auto;
+      background-color: #5474FD;
+      box-sizing: border-box;
+      vertical-align: middle; }
+      @media only screen and (max-width: 320px) {
+        .elem-1 .container .con-foot {
+          display: flex;
+          flex-direction: column;
+          text-align: center; } }
+      .elem-1 .container .con-foot .logo {
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Josefin Sans";
+        vertical-align: middle; }
+      .elem-1 .container .con-foot .text {
+        font-size: 12px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Aleo";
+        text-transform: uppercase;
+        vertical-align: middle; }
+      .elem-1 .container .con-foot .text {
+        font-size: 12px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Aleo";
+        text-transform: uppercase;
+        vertical-align: middle; }
+      .elem-1 .container .con-foot .text {
+        font-size: 12px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Aleo";
+        text-transform: uppercase;
+        vertical-align: middle; }
+      .elem-1 .container .con-foot .text {
+        font-size: 12px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Aleo";
+        text-transform: uppercase;
+        vertical-align: middle; }
+
+.section2 .container {
+  margin: 0 auto;
+  background: url(../img/elem-2bagr.png);
+  background-size: cover; }
+  .section2 .container .main {
+    display: flex;
+    justify-content: space-between; }
+    .section2 .container .main .part-1 .title {
+      font-size: 36px;
+      line-height: 26px;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Aleo";
+      margin-top: 100px;
+      text-align: left; }
+      @media only screen and (max-width: 767px) {
+        .section2 .container .main .part-1 .title {
+          font-size: 20px; } }
+    .section2 .container .main .part-1 .text {
+      font-size: 16px;
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      margin-top: 20px;
+      text-align: left; }
+    .section2 .container .main .part-1 .text {
+      margin-bottom: 20px; }
+    .section2 .container .main .part-1 .btn {
+      width: 50%;
+      box-sizing: border-box;
+      text-align: left; }
+      .section2 .container .main .part-1 .btn .button-blue {
+        font-size: 16px;
+        background: #5474FD;
+        font-weight: 400;
+        font-family: "Aleo";
+        border: 2px solid red; }
+    .section2 .container .main .part-2 {
+      margin-top: 15%; }
+      .section2 .container .main .part-2 .sky {
+        margin-left: 25%; }
+  .section2 .container .part-3 {
+    margin: 20px auto 0 auto;
+    background-color: #676767;
+    display: flex; }
+    .section2 .container .part-3 .element-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      @media only screen and (max-width: 320px) {
+        .section2 .container .part-3 .element-1 {
+          font-size: 16px; } }
+      .section2 .container .part-3 .element-1 .icon_1 {
+        text-align: center;
+        color: blue; }
+      .section2 .container .part-3 .element-1 .reaction {
+        font-size: 20px;
+        color: #e8e8e8;
+        font-weight: 400;
+        font-family: "Aleo";
+        text-align: center; }
+        @media only screen and (max-width: 320px) {
+          .section2 .container .part-3 .element-1 .reaction {
+            font-size: 12px; } }
+    .section2 .container .part-3 .element-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section2 .container .part-3 .element-2 .check {
+        background: hotpink;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px; }
+      .section2 .container .part-3 .element-2 .reaction {
+        font-size: 20px;
+        color: #e8e8e8;
+        font-weight: 400;
+        font-family: "Aleo";
+        text-align: center; }
+        @media only screen and (max-width: 320px) {
+          .section2 .container .part-3 .element-2 .reaction {
+            font-size: 12px; } }
+    .section2 .container .part-3 .element-3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section2 .container .part-3 .element-3 .icon_3 {
+        text-align: center; }
+      .section2 .container .part-3 .element-3 .reaction {
+        font-size: 20px;
+        color: #e8e8e8;
+        font-weight: 400;
+        font-family: "Aleo";
+        text-align: center; }
+        @media only screen and (max-width: 320px) {
+          .section2 .container .part-3 .element-3 .reaction {
+            font-size: 12px; } }
+
+.spain {
+  margin: 0 auto; }
+  .spain .part-1 {
+    background: url(../img/1.png) center;
+    background-size: cover; }
+    .spain .part-1 .element {
+      background-color: #252222;
+      opacity: 0.75;
+      margin: 20px auto; }
+      @media only screen and (min-width: 768px) and (max-width: 2440px) {
+        .spain .part-1 .element {
+          transform: translateX(10%); } }
+      .spain .part-1 .element .title {
+        font-size: 20px;
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 20px 15px 5px 15px; }
+      .spain .part-1 .element .header {
+        font-size: 20px;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 5px 15px; }
+      .spain .part-1 .element .text {
+        font-size: 13px;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 5px 15px; }
+      .spain .part-1 .element .but {
+        color: #ffffff;
+        background-color: #5474FD;
+        text-align: left;
+        margin: 20px 15px; }
+  .spain .part-2 {
+    background: url(../img/2.png) center;
+    background-size: cover;
+    text-align: right;
+    display: flex; }
+    .spain .part-2 .element {
+      background-color: #252222;
+      opacity: 0.75;
+      margin-bottom: 50px;
+      text-align: left; }
+      @media only screen and (min-width: 768px) and (max-width: 2440px) {
+        .spain .part-2 .element {
+          transform: translateX(60%); } }
+      .spain .part-2 .element .title {
+        font-size: 20px;
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 20px 15px 5px 15px; }
+      .spain .part-2 .element .header {
+        font-size: 20px;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 5px 15px; }
+      .spain .part-2 .element .text {
+        font-size: 13px;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 5px 15px; }
+      .spain .part-2 .element .but {
+        color: #ffffff;
+        background-color: #5474FD;
+        text-align: left;
+        margin: 20px 15px; }
+
+.happy_section {
+  margin: 0 auto; }
+  .happy_section .main {
+    background: url(../img/bigman.png); }
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/Aleo-Font/aleo-regular-webfont.ttf"); }
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url(../fonts/JosefinSans-Regular.ttf); }

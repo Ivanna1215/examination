@@ -1,0 +1,116 @@
+
+.spain {
+    margin: 0 auto;
+    // height: 1000px;
+    // border: 2px solid red;
+
+
+.part-1 {
+    background: url(../img/1.png) center;
+    background-size: cover;
+   
+    // border: 2px solid red;
+    // height:500px;
+.element {
+background-color:#252222;
+opacity: 0.75;
+margin: 20px auto;
+//  border: 2px solid red;
+@media only screen and (min-width:768px) and (max-width: 2440px)  {
+    transform: translateX(10%);
+
+ }
+.title {
+    font-size: 20px;
+// letter-spacing: 2px;
+// line-height: 26px;
+color: #e8e8e8;
+font-family: "Josefin Sans";
+text-align: left;
+margin: 20px 15px 5px 15px;
+}
+.header {
+    font-size: 20px;
+// line-height: 26px;
+color: #ffffff;
+font-family: "Josefin Sans";
+text-align: left;
+margin: 5px 15px;
+
+}
+.text {
+    font-size: 13px;
+color: #ffffff;
+font-family: "Josefin Sans";
+text-align: left;
+margin: 5px 15px;
+}
+.but {
+    color: #ffffff;
+    background-color:#5474FD;
+    text-align: left;
+    margin: 20px 15px;
+}
+
+
+}
+
+}
+
+.part-2 {
+    background: url(../img/2.png) center;
+    // border: 2px solid red;
+    background-size: cover;
+    text-align: right;
+    display: flex;
+
+
+    
+    .element {
+        background-color:#252222;
+        opacity: 0.75;
+        //  border: 2px solid red;
+margin-bottom: 50px;
+
+ text-align: left;
+ @media only screen and (min-width:768px) and (max-width: 2440px) {
+    transform: translateX(60%);
+
+ }
+        .title {
+            font-size: 20px;
+        // letter-spacing: 2px;
+        // line-height: 26px;
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 20px 15px 5px 15px;
+        }
+        .header {
+            font-size: 20px;
+        // line-height: 26px;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 5px 15px;
+        
+        }
+        .text {
+            font-size: 13px;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        text-align: left;
+        margin: 5px 15px;
+        }
+        .but {
+            color: #ffffff;
+            background-color:#5474FD;
+            text-align: left;
+            margin: 20px 15px;
+        }
+        
+        
+        }
+
+}
+}

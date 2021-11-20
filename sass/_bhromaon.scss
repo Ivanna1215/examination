@@ -1,0 +1,181 @@
+.elem-1 {
+
+   color: white;
+   margin: 0 auto;
+//    height: 820px;
+
+   .container {
+    background: url(../img/Image.png);
+    margin: 0 auto;
+    // width: 100%;
+.head-1 {
+    font-size: 48px;
+// letter-spacing: 5px;
+// line-height: 26px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Josefin Sans";
+text-align: center;
+margin-top: 100px;
+@media only screen  and (max-width: 320px) {
+    font-size: 22px;
+    margin-top: 30px;
+ }
+}
+
+.title {
+    font-size: 22px;
+// letter-spacing: 7px;
+// line-height: 26px;
+color: #ffffff;
+font-family: "Josefin Sans";
+text-align: center;
+// border: 2px solid red;
+@media only screen  and (max-width: 320px) {
+    font-size: 18px;
+  
+ }
+
+
+}
+
+
+.search {
+    width: 310px; /* Ширина поля с кнопкой */
+    border: 1px solid white; /* Параметры рамки */
+    min-height: 20px; /* Минимальная высота */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    @media only screen  and (max-width: 320px) {
+        width: 290px;
+       
+      }
+  
+   input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 274px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+   }
+   input[type="submit"] {
+    width: 120px; /* Ширина кнопки */
+    min-height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background-color:#5474FD;
+   }
+}
+
+.wrapper {
+    margin: 80px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    @media only screen  and (max-width: 320px) {
+        margin: 20px auto;
+     }
+    .scroll__down {
+        color: white;
+        text-decoration: none;
+      
+        text-align: center;
+        // border: 2px solid red;
+    }
+   
+    .image-mini {
+        .angle {
+            background-color: white;
+            // color: white;
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+
+
+    .con-foot {
+        display: flex;
+        justify-content: space-between;
+        // border: 2px solid red;
+        width:100%;
+        height: 100%;
+        // height: 55px;
+        margin:  10px auto 0 auto;
+        // text-align: center;
+        background-color:#5474FD;
+        // padding: 0px;
+        // margin: 0px;
+        box-sizing: border-box;
+        vertical-align: middle;
+
+        @media only screen  and (max-width: 320px) {
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+          
+         }
+
+
+    .logo {
+        font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    vertical-align: middle;
+    }
+    .text {
+        font-size: 12px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Aleo";
+    text-transform: uppercase;
+    vertical-align: middle;
+    
+    }
+    
+    .text {
+        font-size: 12px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Aleo";
+    text-transform: uppercase;
+    vertical-align: middle;
+    }
+    
+    .text {
+        font-size: 12px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Aleo";
+    text-transform: uppercase;
+    vertical-align: middle;
+    }
+    
+    .text {
+        font-size: 12px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Aleo";
+    text-transform: uppercase;
+    vertical-align: middle;
+    }
+    
+    }
+
+
+
+
+}
+}
+
+
+

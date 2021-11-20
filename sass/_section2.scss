@@ -1,0 +1,184 @@
+.section2 {
+   
+    // border: 2px solid red;
+
+    .container {
+        margin: 0 auto;
+        background: url(../img/elem-2bagr.png);
+  background-size: cover;
+.main {
+    display: flex;
+    justify-content: space-between;
+    // border: 2px solid green;
+
+.part-1 {
+//  border: 2px solid blue;
+
+.title {
+    font-size: 36px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Aleo";
+margin-top: 100px;
+text-align: left;
+@media only screen and (max-width: 767px) {
+    font-size: 20px;
+}
+
+}
+.text {
+font-size: 16px;
+color: #e8e8e8;
+font-family: "Josefin Sans";
+margin-top: 20px;
+text-align: left;
+}
+
+.text {
+    margin-bottom: 20px;
+    
+    }
+
+.btn {
+    // border: 3px solid green;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+ 
+    .button-blue {
+        font-size: 16px;
+        background:#5474FD;
+        font-weight: 400;
+        font-family: "Aleo";  
+        border: 2px solid red;
+        // width: 100%;
+    }
+}
+
+
+}
+
+.part-2 {
+    margin-top: 15%;
+//  border: 2px solid red;
+ 
+    .natur {
+  
+
+    }
+
+.sky {
+    // border: 2px solid red;
+ margin-left: 25%;
+}
+
+}
+
+}
+.part-3 {
+    margin: 20px auto 0 auto;
+    // border: 2px solid red;
+    background-color:#676767;
+
+
+    // height: 100px;
+  display: flex;
+    
+    
+   
+
+    .element-1 {
+        // border: 2px solid blue;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      
+        @media only screen and (max-width: 320px) {
+            font-size: 16px;
+        }
+
+
+        .icon_1 {
+            text-align: center;
+            color: blue;
+           
+        }
+    
+        .reaction {
+            font-size: 20px;
+    color: #e8e8e8;
+    font-weight: 400;
+    font-family: "Aleo";
+    text-align: center;
+    @media only screen and (max-width: 320px) {
+        font-size: 12px;
+    }
+    
+        }
+
+    }
+ 
+
+
+    .element-2 {
+        // border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+     .check  {
+         background: hotpink;
+         border-radius: 100%;
+         width: 20px;
+         height: 20px;
+           }
+     
+        .reaction {
+            font-size: 20px;
+    color: #e8e8e8;
+    font-weight: 400;
+    font-family: "Aleo";
+    text-align: center;
+    @media only screen and (max-width: 320px) {
+        font-size: 12px;
+    }
+    
+        }
+
+    }
+ 
+
+.element-3 {
+    // border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .icon_3 {
+        text-align: center;
+    }
+    .reaction {
+        font-size: 20px;
+color: #e8e8e8;
+font-weight: 400;
+font-family: "Aleo";
+text-align: center;
+@media only screen and (max-width: 320px) {
+    font-size: 12px;
+}
+
+    }
+
+}
+
+
+
+}
+
+
+
+    }
+}
